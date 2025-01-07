@@ -3,3 +3,4 @@ SQLAlchemy==1.4.*
 Telethon==1.*
 pyrotgfork
 pyromod
+psycopg2
