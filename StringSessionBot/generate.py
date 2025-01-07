@@ -2,6 +2,7 @@ from telethon import TelegramClient
 from pyrogram.types import Message
 from pyrogram import Client, filters
 import os
+from pyromod import *
 from dotenv import load_dotenv
 load_dotenv()
 
