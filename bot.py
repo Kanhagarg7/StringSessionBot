@@ -1,6 +1,8 @@
 import env
+import config
 import logging
-from pyrogram import Client, idle# type: ignore
+from pyrogram import Client, idle
+from pyromod import listen# type: ignore
 from pyrogram.errors import ApiIdInvalid, ApiIdPublishedFlood, AccessTokenInvalid
 
 
