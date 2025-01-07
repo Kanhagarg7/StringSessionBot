@@ -5,3 +5,4 @@ pyrotgfork
 psycopg2
 pyrogram1
 pyromod
+config
