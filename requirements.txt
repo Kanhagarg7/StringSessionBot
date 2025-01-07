@@ -3,6 +3,6 @@ SQLAlchemy==1.4.*
 Telethon==1.*
 psycopg2
 pyrogram1
-git+https://github.com/Kanhagarg7/pyromod.git
+git+https://github.com/Kanhagarg7/pyromod.git==1.5
 config
 TgCrypto 
