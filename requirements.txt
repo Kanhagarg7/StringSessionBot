@@ -1,8 +1,7 @@
 python-dotenv==0.*
 SQLAlchemy==1.4.*
 Telethon==1.*
-pyrotgfork
 psycopg2
 pyrogram1
-pyromod
+https://github.com/Kanhagarg7/pyromod.git
 config
