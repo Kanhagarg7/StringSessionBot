@@ -1,6 +1,11 @@
 from telethon import TelegramClient
 from pyrogram.types import Message
 from pyrogram import Client, filters
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
+
 from asyncio.exceptions import TimeoutError
 from telethon.sessions import StringSession
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
@@ -58,8 +63,8 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     if await cancelled(api_id_msg):
         return
     if api_id_msg.text == "/skip":
-        api_id = config.API_ID
-        api_hash = config.API_HASH
+        api_id = os.getenv("API_ID", "")
+        api_hash = os.getenv("API_HASH", "")
     else:
         try:
             api_id = int(api_id_msg.text)
