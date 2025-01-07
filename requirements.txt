@@ -5,3 +5,4 @@ psycopg2
 pyrogram1
 git+https://github.com/Kanhagarg7/pyromode.git
 config
+TgCrypto 
